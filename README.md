@@ -41,7 +41,12 @@ I thought uncertainty estimation would catch most bad predictions. It didn't. Th
 ```
 ├── mini_paper_English.md   # Full write-up (English)
 ├── mini_paper_Chinese.md   # Chinese version
-├── CODE_README.md          # Code docs
+├── README.md               # This file
+├── CODE_README.md          # Code documentation
+├── code/                   # Python scripts
+│   ├── week4_day2_corrected.py    # ECE and reliability diagrams
+│   ├── week4_day3_corrected.py    # Temperature scaling
+│   └── week4_day4_final.py        # Summary and figures
 ├── figures/                # Plots and diagrams
 │   ├── entropy_correct_vs_wrong_v2.png
 │   ├── entropy_borderline_vs_nonborderline_v2.png

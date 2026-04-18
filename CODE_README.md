@@ -12,23 +12,25 @@ The main finding was that the model was overconfident (mean confidence 73% vs ac
 
 ## Main Code Files
 
+All code is in the `code/` folder:
+
 | File | What It Does |
 |------|--------------|
-| `week4_day2_corrected.py` | Calculates confidence bins and ECE (Expected Calibration Error) |
-| `week4_day3_corrected.py` | Implements temperature scaling to fix overconfidence |
-| `week4_day4_final.py` | Generates final figures and summary statistics |
+| `code/week4_day2_corrected.py` | Calculates confidence bins and ECE (Expected Calibration Error) |
+| `code/week4_day3_corrected.py` | Implements temperature scaling to fix overconfidence |
+| `code/week4_day4_final.py` | Generates final figures and summary statistics |
 
 ## How to Run
 
 ```bash
 # Week 4 Day 2: confidence bins and reliability diagram
-python week4_day2_corrected.py
+python code/week4_day2_corrected.py
 
 # Week 4 Day 3: temperature scaling
-python week4_day3_corrected.py
+python code/week4_day3_corrected.py
 
 # Week 4 Day 4: final summary
-python week4_day4_final.py
+python code/week4_day4_final.py
 ```
 
 ## Requirements
