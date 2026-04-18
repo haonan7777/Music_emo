@@ -1,6 +1,6 @@
 # Music Emotion Classification - Week 4 Calibration Analysis
 
-This folder contains the code I wrote for my Week 4 project on calibration analysis.
+This repository contains the code and results for my Week 4 project on calibration analysis in music emotion classification. The main Python scripts are in the `code/` folder.
 
 ## What This Project Does
 
