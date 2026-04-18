@@ -1,0 +1,33 @@
+
+Week 3 Day 5 可视化图注
+================================================================================
+
+1. uncertainty_histogram.png
+   - Test集所有样本的predictive entropy分布
+   - 红色虚线表示均值
+   - 显示模型整体不确定性水平
+
+2. confidence_histogram.png
+   - Test集所有样本的max confidence分布
+   - 红色虚线表示均值
+   - 显示模型整体置信度水平
+
+3. entropy_correct_vs_wrong.png
+   - 左: 正确vs错误样本的entropy密度分布
+   - 右: Box plot对比
+   - 关键发现: 错误样本entropy显著更高
+
+4. entropy_borderline_vs_nonborderline.png
+   - 左: 边界vs非边界样本的entropy密度分布
+   - 右: Box plot对比
+   - 关键发现: 边界样本entropy显著更高
+
+5. high_confidence_errors_class_dist.png
+   - 左: 高置信错误中真实类别的分布
+   - 右: 高置信错误中预测类别的分布
+   - 用于分析哪些类别容易产生"过度自信"错误
+
+关键统计:
+- 错误样本entropy: 0.874 vs 正确样本: 0.573 (+0.30)
+- 边界样本entropy: 0.830 vs 非边界: 0.582 (+0.25)
+- 高置信错误: 33个 (占全部错误的34%)
