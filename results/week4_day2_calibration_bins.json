@@ -1,0 +1,123 @@
+{
+  "day": "Week 4 Day 2 (CORRECTED)",
+  "timestamp": "2026-04-17 04:16:08.751731",
+  "project_root": "/home/ubuntu/music_uncertainty_project",
+  "n_samples": 271,
+  "accuracy": 0.6420664206642066,
+  "mean_confidence": 0.7324531755579418,
+  "mean_entropy": 0.6807620834547582,
+  "ece": 0.09767837958054983,
+  "mce": 0.7020140911142032,
+  "bin_statistics": [
+    {
+      "bin_id": 1,
+      "range": "(0.0, 0.1]",
+      "count": 0,
+      "accuracy": 0.0,
+      "confidence": 0.0,
+      "error_count": 0,
+      "gap": 0.0
+    },
+    {
+      "bin_id": 2,
+      "range": "(0.1, 0.2]",
+      "count": 0,
+      "accuracy": 0.0,
+      "confidence": 0.0,
+      "error_count": 0,
+      "gap": 0.0
+    },
+    {
+      "bin_id": 3,
+      "range": "(0.2, 0.3]",
+      "count": 1,
+      "accuracy": 1.0,
+      "confidence": 0.2979859088857968,
+      "error_count": 0,
+      "gap": -0.7020140911142032
+    },
+    {
+      "bin_id": 4,
+      "range": "(0.3, 0.4]",
+      "count": 13,
+      "accuracy": 0.38461538461538464,
+      "confidence": 0.3626153035423694,
+      "error_count": 8,
+      "gap": -0.02200008107301521
+    },
+    {
+      "bin_id": 5,
+      "range": "(0.4, 0.5]",
+      "count": 22,
+      "accuracy": 0.3181818181818182,
+      "confidence": 0.4600479837563453,
+      "error_count": 15,
+      "gap": 0.14186616557452714
+    },
+    {
+      "bin_id": 6,
+      "range": "(0.5, 0.6]",
+      "count": 38,
+      "accuracy": 0.39473684210526316,
+      "confidence": 0.5564021546183476,
+      "error_count": 23,
+      "gap": 0.16166531251308447
+    },
+    {
+      "bin_id": 7,
+      "range": "(0.6, 0.7]",
+      "count": 45,
+      "accuracy": 0.6,
+      "confidence": 0.6515627911607562,
+      "error_count": 18,
+      "gap": 0.05156279116075624
+    },
+    {
+      "bin_id": 8,
+      "range": "(0.7, 0.8]",
+      "count": 36,
+      "accuracy": 0.6666666666666666,
+      "confidence": 0.7604642057998314,
+      "error_count": 12,
+      "gap": 0.0937975391331648
+    },
+    {
+      "bin_id": 9,
+      "range": "(0.8, 0.9]",
+      "count": 55,
+      "accuracy": 0.7090909090909091,
+      "confidence": 0.8567507558157949,
+      "error_count": 16,
+      "gap": 0.14765984672488575
+    },
+    {
+      "bin_id": 10,
+      "range": "(0.9, 1.0]",
+      "count": 61,
+      "accuracy": 0.9180327868852459,
+      "confidence": 0.9573796659382314,
+      "error_count": 4,
+      "gap": 0.039346879052985506
+    }
+  ],
+  "high_confidence_analysis": {
+    "threshold": 0.8,
+    "n_samples": 116,
+    "mean_confidence": 0.9096676826905244,
+    "accuracy": 0.8189655172413793,
+    "gap": 0.09070216544914511,
+    "errors": 21,
+    "pct_of_all_errors": 21.649484536082475
+  },
+  "key_findings": {
+    "overconfidence_detected": true,
+    "confidence_accuracy_gap": 0.09038675489373516,
+    "most_populated_bins": [
+      10,
+      9,
+      7
+    ],
+    "high_conf_errors_exist": true
+  },
+  "note": "An incorrect calibration run was briefly produced from a different project directory (music_emotion_project, 361 samples). This was discarded, and all Week 4 analyses were re-run using the correct main project directory (music_uncertainty_project, 271 samples) to maintain consistency with Weeks 1-3."
+}

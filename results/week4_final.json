@@ -1,0 +1,39 @@
+{
+  "week": "Week 4",
+  "status": "COMPLETE",
+  "timestamp": "2026-04-17 04:41:51.701060",
+  "dataset": "DEAM",
+  "n_test_samples": 271,
+  "optimal_temperature": 1.600000000000001,
+  "final_metrics": {
+    "before_calibration": {
+      "accuracy": 0.6420664206642066,
+      "mean_confidence": 0.7324531755579418,
+      "ece": 0.09767837958054983,
+      "confidence_accuracy_gap": 0.09038675489373516
+    },
+    "after_calibration": {
+      "accuracy": 0.6420664206642066,
+      "mean_confidence": 0.6177379347819149,
+      "ece": 0.049521697555570544,
+      "confidence_accuracy_gap": -0.02432848588229175
+    },
+    "improvements": {
+      "ece_reduction": 0.04815668202497928,
+      "accuracy_change": 0.0,
+      "gap_reduction": 0.1147152407760269
+    }
+  },
+  "key_findings": [
+    "34% of errors were high-confidence errors",
+    "Systematic overconfidence across 0.4-0.9 confidence range",
+    "ECE reduced by 49% with temperature scaling (T=1.60)",
+    "Accuracy perfectly preserved at 64.2%"
+  ],
+  "deliverables": [
+    "week4_summary.md",
+    "week4_final_conclusion.txt",
+    "reliability_diagram_before.png",
+    "reliability_diagram_after.png"
+  ]
+}
